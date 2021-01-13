@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="wrapper"> 
+        <div class="header">
+            <h1>freeCodeCamp Survey Form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+            </div>
+            <div class="main_container">
+                    <form class="form">
+                        <div class="form_input">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="enter your name">
+                        </div>
+                        <div class="form_input">
+                            <label for="email" >Email</label>
+                            <input type="text" placeholder="enter your Email">
+                        </div>
+                        <div class="form_input">
+                            <label for="age">Age(optional)</label>
+                            <input placeholder="enter your Age" type="number" step="1" min="10">
+                        </div>
+                        <div class="form_input">                           
+                                <p >Would you recommend freeCodeCamp to a friend?</p>
+                                <label for="select"></label><input type="radio" value="Definitely" checked>Definitely</label>
+                                <label for="select"><input type="radio" value="Maybe">Maybe</label>
+                                <label for="select"><input type="radio" value="Not_sure">Not sure</label>
+                        </div>
+                        <div class="form_input">
+                                <p>What is your favorite feature of freeCodeCamp?</p>
+                                <select id="most-like" name="mostLike" class="form-control" required="">
+                                    <option disabled="" selected="" value="">Select an option</option>
+                                    <option value="challenges">Challenges</option>
+                                    <option value="projects">Projects</option>
+                                    <option value="community">Community</option>
+                                    <option value="openSource">Open Source</option>
+                                </select>
+                        </div>
+                        <div class="form_input">
+                             <label for="">name</label>
+                            <input type="text" placeholder="enter your name"></div>
+                        
+                    </form>
+            </div>
+    </div>
+</body>
+</html>
